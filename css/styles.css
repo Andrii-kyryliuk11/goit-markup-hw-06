@@ -583,7 +583,7 @@ ul.client-links a {
 }
 
 .footer-links {
-  margin-right: 93px;
+  margin-right: 90px;
 }
 
 .footer-links p {
@@ -607,13 +607,14 @@ div.footer-adress .logo {
 }
 
 div.footer-adress {
-  width: 231px;
+  width: 230px;
   margin-right: 70px;
 }
 
 ul.footer-links {
   display: flex;
   gap: 10px;
+  margin-right: 0px;
 }
 
 ul.footer-links li {
@@ -754,6 +755,14 @@ a.project-link:focus .project-overlay {
   padding: 50px;
 }
 
+::placeholder {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
 .form-footer input {
   display: inline;
   width: 360px;
@@ -762,6 +771,7 @@ a.project-link:focus .project-overlay {
   background-color: var(--footer-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+  color: #fff;
 }
 
 button[type="submit"] {
